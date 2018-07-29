@@ -1,5 +1,6 @@
- docker build -t springboot .
- docker save -o springboot.tar springboot
+docker build -t springboot .
  
- docker load < xx.tar
+docker save -o springboot.tar springboot
+ 
+docker load < xx.tar
  
